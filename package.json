@@ -1,0 +1,1 @@
+{"description":"Minimal forward proxy that relays already-signed Binance API requests. It never sees, logs or stores API keys or secrets.","engines":{"node":">=18"},"license":"MIT","main":"server.js","name":"binance-relay","scripts":{"start":"node server.js"},"version":"1.0.0"}

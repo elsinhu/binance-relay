@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: binance-relay
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
